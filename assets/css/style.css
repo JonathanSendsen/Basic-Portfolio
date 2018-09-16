@@ -1,3 +1,80 @@
-img {
-    size: 10px;
+body {
+    line-height: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0%;   
+    background-image:"/Users/jonathansendsen/Documents/Basic-Portfolio/banana/banana.png";
+    margin-top: 20px;
+    margin-bottom: 20px;   
+}
+
+h1 {
+    color: #4aaaa5;
+    font-family: 'Georgia, Times New Roman', 'Times', 'serif;
+}
+
+
+a {
+    text-decoration: none;
+    color: lightgray;
+}
+
+a:hover {
+    color: green;
+}
+
+
+
+.nav {
+    background-color: blue;
+    border:
+}
+
+.container {
+    width: 960px;
+    height: 960px;
+}
+
+h2 {
+    color: #4aaaa5;
+}
+
+.button {
+    color: black;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:  darkgrey;
+    color: white;
+    text-align: center;
+}
+
+.my-form {
+    padding: 20px;
+}
+
+.my-form.form-group {
+    padding-bottom: 15px;
+}
+
+.my-form input {
+    padding: 9px;
+    width: 70%;
+}
+
+.my-button {
+    padding: 9px;
+    margin-left: 21px;
+    padding: 25px, 20px 25px 20px;
+    color: white;
+    background-color:  #4aaaa5;
+    width: 35%;
+    border: none;
+}
+
+.my-button:hover {
+    background-color:  green;
 }

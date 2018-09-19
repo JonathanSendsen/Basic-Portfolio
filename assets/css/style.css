@@ -57,14 +57,6 @@ h2 {
 
 
 
-.name {
-    
-}
-
-.email {
-
-}
-
 .message {
     height: 300px;
 }
@@ -106,18 +98,23 @@ section{
 }
 
 
-.food {
-    float: right;
-}
-
 .dog {
     float: left;
 }
 
-.sports {
-    float: left
-}
 
 .cat {
     float: right;
+}
+
+.left { 
+    height: 20px;
+    width: 20px;
+
+}
+
+.right{ 
+    height: 20px;
+    width: 20px;
+
 }

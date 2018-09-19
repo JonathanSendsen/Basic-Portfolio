@@ -1,14 +1,14 @@
 body {
     line-height: 1.5em;
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0%;   
-    background-image:"/Users/jonathansendsen/Documents/Basic-Portfolio/banana/banana.png";
-    margin-top: 20px;
-    margin-bottom: 20px;   
+    font-family: Arial, Helvetica, sans-serif;    
+    padding: 30px;
+
 }
 
 h1 {
-    color: #4aaaa5;
+    background-color: #4aaaa5;
+    color: white;
+    float: left;
     font-family: 'Georgia, Times New Roman', 'Times', 'serif;
 }
 
@@ -24,14 +24,15 @@ a:hover {
 
 
 
-.nav {
-    background-color: blue;
-    border:
+header {
+    background-color: #4aaaa5;
+    color: white;
+    font-family: 'Georgia, Times New Roman', 'Times', 'serif;
+    
 }
 
-.container {
-    width: 960px;
-    height: 960px;
+nav {
+    border-top: 2px solid lightgrey;
 }
 
 h2 {
@@ -52,29 +53,69 @@ h2 {
     text-align: center;
 }
 
-.my-form {
-    padding: 20px;
+
+
+.name {
+    
 }
 
-.my-form.form-group {
-    padding-bottom: 15px;
+.email {
+
 }
 
-.my-form input {
-    padding: 9px;
-    width: 70%;
+.message {
+    height: 200px;
 }
-
-.my-button {
+button {
     padding: 9px;
     margin-left: 21px;
     padding: 25px, 20px 25px 20px;
     color: white;
     background-color:  #4aaaa5;
-    width: 35%;
+    width: 5%;
     border: none;
 }
 
 .my-button:hover {
     background-color:  green;
+}
+
+li {
+    float: right;
+    margin-inline-start: 10px;
+    background-color: #4aaaa5;    
+}
+
+.ordered-list{
+    float: right;
+}
+
+section{
+    float: left;
+}
+
+img{
+    height: 200px;
+    width: 200px;
+}
+
+.my-words {
+    float: left;
+}
+
+
+.food {
+    float: right;
+}
+
+.dog {
+    float: left;
+}
+
+.sports {
+    float: left
+}
+
+.cat {
+    float: right;
 }

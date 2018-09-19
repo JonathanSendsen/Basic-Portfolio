@@ -39,6 +39,7 @@ nav {
 
 h2 {
     color: #4aaaa5;
+    border-bottom: 2px solid black;
 }
 
 .button {

@@ -2,9 +2,7 @@ body {
     line-height: 1.5em;
     font-family: Arial, Helvetica, sans-serif;    
     padding: 30px;
-    background-image: url('../banana/bananas.png');
-
-
+    background-image: url('../banana/bananas.png');    
 }
 
 h1 {
@@ -18,35 +16,37 @@ h1 {
 
 a {
     text-decoration: none;
-    color: lightgray;
+    color: black;
+    text-decoration: underline;
+
 }
 
 a:hover {
-    color: green;
+    color: palevioletred;
 }
 
 
 
-header {
+.clearfix {
     background-color: #4aaaa5;
-    color: white;
     padding: 10px;
     font-family: 'Georgia, Times New Roman', 'Times', 'serif';
-    margin: 0 auto;
+    overflow: auto;
+    display: block;
+    height: 10px;
     
 }
 
-nav {
-    border-bottom: 2px solid lightgrey;
+nav {    
     margin: 0 auto;
     width: 100%;
-    background-color: white;
-    clear: both;
+    
 }
 
 h2 {
     color: #4aaaa5;
     border-bottom: 2px solid lightgrey;
+    padding: 10px;
 }
 
 .button {
@@ -61,8 +61,7 @@ footer {
     background-color:  darkgrey;
     color: white;
     text-align: center;
-    border-top-color: #4aaaa5 20px;
-
+    border-top: solid 5px  #4aaaa5;
 }
 
 .name {
@@ -90,12 +89,9 @@ button {
 
 li {
     float: right;
-    margin-inline-start: 10px;
-    background-color: #4aaaa5;    
-}
-
-.ordered-list{
-    float: right;
+    margin-inline-start: 20px;
+    color:black; 
+    list-style-type: none;   
 }
 
 section{
@@ -108,6 +104,7 @@ section{
 .profile{
    float: left;
    width: 200px;
+   padding: 10px;
 }
 
 .my-words {

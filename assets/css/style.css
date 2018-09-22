@@ -18,13 +18,11 @@ a {
     text-decoration: none;
     color: black;
     text-decoration: underline;
-
 }
 
 a:hover {
     color: palevioletred;
 }
-
 
 
 .clearfix {
@@ -33,14 +31,12 @@ a:hover {
     font-family: 'Georgia, Times New Roman', 'Times', 'serif';
     overflow: auto;
     display: block;
-    height: 10px;
-    
+    height: 10px; 
 }
 
 nav {    
     margin: 0 auto;
-    width: 100%;
-    
+    width: 100%;   
 }
 
 h2 {
@@ -98,13 +94,13 @@ section{
     float: left;
     margin: 20px;
     background-color: white;
-
 }
 
 .profile{
    float: left;
    width: 200px;
    padding: 10px;
+   position: relative; top: -10px; 
 }
 
 .my-words {

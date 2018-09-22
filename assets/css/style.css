@@ -81,6 +81,7 @@ button {
 
 .my-button:hover {
     background-color:  green;
+
 }
 
 li {
@@ -109,12 +110,62 @@ section{
 
 .food {
     float: left;
+    padding: 20px;
+    position: relative;
+
+}
+
+.text-block-food {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    background-color: #4aaaa5;
+    color: white;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: center;
+    width: 90%;
 }
 
 .dog {
     float: left;
+    padding: 40px;
+    position: relative;
+}
+
+.text-block-dog {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    background-color: #4aaaa5;
+    color: white;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: center;
+    width: 90%;
+}
+
+.sports {
+    float: right;
+    padding: 40px;
+    position: relative;
+}
+
+.text-block-sports{
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    background-color: #4aaaa5;
+    color: white;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: center;
+    width: 90%;
 }
 
 .cat {
     float: left;
+    padding: 20px;
+    position: relative;
+
 }

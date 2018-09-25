@@ -3,15 +3,12 @@ body {
     font-family: 'Georgia', 'Times New Roman', 'Times', 'serif';
     padding: 30px;
     background-image: url('../banana/bananas.png');
-    width: 940px;
     margin: 0 auto;
-   
 }
 
 h1 {
     background-color: #4aaaa5;
     color: white;
-    float: left;
     padding: 10px;
     font-family: 'Georgia', 'Times New Roman', 'Times', 'serif';
 }
@@ -43,6 +40,11 @@ a:active {
 nav {    
     margin: 0 auto;
     width: 100%;   
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    overflow: hidden;
+
 }
 
 h2 {
@@ -63,31 +65,37 @@ footer {
     border-top: solid 5px  #4aaaa5;
 }
 
+
 form{ 
-    float: left;
-    height: 450px;
-    width: 900px;
-    padding: 10px;
-    float: left;
+    margin: 0 auto;
+    height: 470px;
+    width: 750px;
+    padding-top: 20px;
     background-color: white;
     font-family: 'Georgia', 'Times New Roman', 'Times', 'serif';
     border: 2px solid lightgray;
-    position: relative; top: 10px; 
+    position: relative; top: 25px; 
+    margin: 0px auto;
 }
 
 .name {
     padding-bottom: 10px;
     position: relative; top: -5px; 
+    padding-left: 10px;
+
 }
 
 .email {
     padding-bottom: 10px;
     position: relative; top: -5px; 
+    padding-left: 10px;
+
 }
 
 .message {
     padding-bottom: 10px;
     position: relative; top: -5px; 
+    padding-left: 10px;
 }
 
 button {
@@ -95,10 +103,12 @@ button {
     color: white;
     background-color:  #4aaaa5;
     width: 10%;
-    margin-top: 10px; 
+    margin-top: 17px; 
     border: 2px solid lightblue;
     padding-bottom: 10px;
     position: relative; top: -15px; 
+    padding-left: 10px;
+    position: relative; left: 10px
 }
 
 button:hover {
@@ -111,20 +121,28 @@ button:active {
 
 
 li {
-    float: right;
-    margin-inline-start: 20px;
+    display: flex;
+    margin-inline-start: 10px;
     color:black; 
     list-style-type: none;   
+    display: inline-block;
+}
+
+ul {
+    display: inline-block;
+    padding-top: 13px;
+    width: 30%;
+
 }
 
 section{
-    float: left;
     background-color: white;
-    width: 940px;
     font-family: 'Georgia', 'Times New Roman', 'Times', 'serif';
     border: 2px solid lightgrey;
     padding-bottom: 10px;
-    position: relative; top: 15px; 
+    position: relative; top: 25px;
+    margin: 0 auto;
+    width: 750px;
 }
 
 article {
@@ -140,7 +158,6 @@ article {
 
 
 .food {
-    float: left;
     padding: 20px;
     position: relative;
 
@@ -157,8 +174,8 @@ article {
     width: 91.3%;
 }
 
+
 .dog {
-    float: left;
     padding: 10px;
     position: relative;
 }
@@ -175,7 +192,6 @@ article {
 }
 
 .sports {
-    float: right;
     padding: 20px;
     position: relative;
 }
@@ -192,7 +208,6 @@ article {
 }
 
 .cat {
-    float: left;
     padding: 10px;
     position: relative;
 
@@ -210,7 +225,6 @@ article {
 }
 
 .tech {
-    float: left;
     padding: 10px;
     position: relative;
 }
@@ -224,4 +238,9 @@ article {
     padding-right: 2px;
     text-align: center;
     width: 90%;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;  
 }

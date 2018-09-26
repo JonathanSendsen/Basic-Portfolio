@@ -108,7 +108,7 @@ button {
     padding-bottom: 10px;
     position: relative; top: -15px; 
     padding-left: 10px;
-    position: relative; left: 10px
+    position: relative; left: 10.5px
 }
 
 button:hover {
@@ -148,6 +148,7 @@ section{
 article {
     padding: 10px;
 }
+
 .profile{
    float: left;
    width: 200px;
